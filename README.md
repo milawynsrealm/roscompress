@@ -7,8 +7,7 @@ This library is designed to be compiled with the [ReactOS](http://reactos.org/) 
 **mscompress**, Microsoft "compress.exe/expand.exe" compatible (de)compressor
 Copyright (c) 2000 Martin Hinner <mhi@penguin.cz>
 Algorithm & data structures by M. Winterhoff <100326.2776@compuserve.com>
-
-[Source Code](ftp://ftp.penguin.cz/pub/users/mhi/mscompress/)
+ftp://ftp.penguin.cz/pub/users/mhi/mscompress/
 
 This package contains two programs:
 
