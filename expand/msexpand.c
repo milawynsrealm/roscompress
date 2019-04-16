@@ -202,6 +202,12 @@ expand (int in, char *inname, int out, char *outname)
   return 0;
 }
 
+#ifdef __REACTOS__
+int wmain(int argc, UNICHAR *argv[])
+{
+    return 0;
+}
+#else
 void
 usage (char *progname)
 {
@@ -289,3 +295,4 @@ main (int argc, char **argv)
 
   exit (0);
 }
+#endif /* __REACTOS__ */
